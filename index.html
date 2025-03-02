@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="tablets.css">    
+    <link rel="stylesheet" href="Airbnb.css">    
+    <link rel="stylesheet" href="style.css">
+    <title>Airbnb clone</title>
+</head>
+
+<body>
+    <div class="nav1" class="story">
+        <img src="logo.svg" alt="" class="logo">
+        <div class="topics">
+            <h3> <a href="#">Homes</a></h3>
+            <h3> <a href="#">Experiences</a></h3>
+            <div class="right">
+                <div class="para">
+                    <p> <a href="#">Airbnb your home</a></p>
+                </div>
+                <a href="#" class="globeicon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-globe"
+                    viewBox="0 0 16 16"><a href="#">
+                        <path
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+                    </a>
+                </a>
+
+                </svg>
+                <div class="double">
+                    <a href="#" class="profilemenu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
+                            role="presentation" focusable="false"
+                            style="display: block; fill: none; height: 20px; width: 20px; stroke: currentcolor; stroke-width: 3; overflow: visible;">
+                            <g fill="none">
+                                <path d="M2 16h28M2 24h28M2 8h28" />
+                            </g>
+                        </svg>
+                    </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
+                            role="presentation" focusable="false"
+                            style="display: block; height: 22px; width: 22px; fill: currentcolor;">
+                            <path
+                                d="M16 .7C7.56.7.7 7.56.7 16S7.56 31.3 16 31.3 31.3 24.44 31.3 16 24.44.7 16 .7zm0 28c-4.02 0-7.6-1.88-9.93-4.81a12.43 12.43 0 0 1 6.45-4.4A6.5 6.5 0 0 1 9.5 14a6.5 6.5 0 0 1 13 0 6.51 6.51 0 0 1-3.02 5.5 12.42 12.42 0 0 1 6.45 4.4A12.67 12.67 0 0 1 16 28.7z" />
+                        </svg>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav2">
+        <div class="box1">
+            <p class="line1">Where</p>
+            <p class="line2">Search destination</p>
+        </div>
+        <hr>
+        <div class="box2">
+            <p class="line1">Check in</p>
+            <p class="line2">Add dates</p>
+        </div>
+        <hr>
+        <div class="box3">
+            <p class="line1">Check out</p>
+            <p class="line2">Add dates</p>
+        </div>
+        <hr>
+        <div class="box4">
+            <p class="line1">Who</p>
+            <p class="line2">Add guests</p>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <hr class="hr">
+    <div class="toolbar">
+        <div class="icon1">
+            <img src="i1.jpeg.jpg" alt="error">
+            <p>Countryside</p>
+        </div>
+        <div class="iconall">
+            <div class="icon2">
+                <img src="i2 (1).jpeg.jpg" alt="error" style="margin-left: 8px;">
+                <p>Rooms</p>
+            </div>
+            <div class="icon3">
+                <img src="i3.jpeg.jpg" alt="error" style="margin-left: 11px;">
+                <p>Bed & breakfasts</p>
+            </div>
+            <div class="icon4">
+                <img src="i4.jpeg.jpg" alt="error"  style="margin-left: 5px;">
+                <p>Design</p>
+            </div>
+            <div class="icon5">
+                <img src="i5.jpeg.jpg" alt="error" style="margin-left: 12px;">
+                <p>Mansions</p>
+            </div>
+            <div class="icon6">
+                <img src="i6.jpeg.jpg" alt="error" style="margin-left: 15px;">
+                <p>Treehouses</p>
+            </div>
+            <div class="icon7">
+                <img src="i8.jpeg.jpg" alt="error" style="margin-left: 4px;">
+                <p>Farms</p>
+            </div>
+            <div class="icon8">
+                <img src="i9.jpeg.jpg" alt="error" style="margin-left: 23px;">
+                <p>Amazing views</p>
+            </div>
+            <div class="icon9">
+                <img src="i10.jpeg.jpg" alt="error" style="margin-left: 15px;">
+                <p>Lakefront</p>
+            </div>
+            <div class="icon10">
+                <img src="i11.jpeg.jpg" alt="error">
+                <p>OMG!</p>
+            </div>
+            <div class="icon11">
+                <img src="i7.jpeg.jpg" alt="error">
+                <p>Pools</p>
+            </div>
+            <div class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: none; height: 23px; width: 23px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
+                    <path fill="none" d="m12 4 11.3 11.3a1 1 0 0 1 0 1.4L12 28" />
+                </svg>
+            </div>
+            <div class="filters">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                    style="display:block;height:24px;width:24px;fill:currentColor" aria-hidden="true"
+                    role="presentation" focusable="false">
+                    <path
+                        d="M5 8a3 3 0 0 1 2.83 2H14v2H7.83A3 3 0 1 1 5 8zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm6-8a3 3 0 1 1-2.83 4H2V4h6.17A3 3 0 0 1 11 2zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                </svg>
+                <p>Filters</p>
+            </div>
+            <div class="end">
+                <p>Display total before taxes</p>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <!-- end of navbar and toolbar -->
+    <div class="photos">
+        <div class="pic1">
+            <img src="pic1.avif" alt="error">
+            <div class="heart1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;">Lonavla, India </p>
+            <p style="color: rgb(174, 170, 170);">1,3773 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">2-7 Jan</p>
+            <p>₹25,592 night</p>
+            <div class="star1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+        <div class="pic2">
+            <img src="pic2.jpg" alt="error">
+            <div class="heart2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;    ">Sanapur, India</p>
+            <p style="color: rgb(174, 170, 170);">1,716 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">1-6 Jan</p>
+            <p>₹13,465 night</p>
+            <div class="star2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+        <div class="pic3">
+            <img src="d3.webp" alt="error">
+            <div class="heart3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;">Gangtok, India</p>
+            <p style="color: rgb(174, 170, 170);">1,216 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">1-9 Jan</p>
+            <p>₹14,500 night</p>
+            <div class="star3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+        <div class="pic4">
+            <img src="d4.webp" alt="error">
+            <div class="heart4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;">Alakabelalu, India</p>
+            <p style="color: rgb(174, 170, 170);">2,003 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">6-11 Jan</p>
+            <p>₹23,565 night</p>
+            <div class="star4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+    </div>
+    <div class="photo">
+        <div class="pic5">
+            <img src="pic3.avif" alt="error">
+            <div class="heart5">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;">Jalandhar, India </p>
+            <p style="color: rgb(174, 170, 170);">61 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">23-27 Mar</p>
+            <p>₹29,592 night</p>
+            <div class="star1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+        <div class="pic6">
+            <img src="pic4.avif" alt="error">
+            <div class="heart6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;    ">Jaipur, India</p>
+            <p style="color: rgb(174, 170, 170);">445 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">6-11 Mar</p>
+            <p>₹13,465 night</p>
+            <div class="star2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+        <div class="pic7">
+            <img src="pic5.avif" alt="error">
+            <div class="heart7">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;">Noida, India</p>
+            <p style="color: rgb(174, 170, 170);">307 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">2-7 Mar</p>
+            <p>₹24,500 night</p>
+            <div class="star3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+        <div class="pic8">
+            <img src="pic6.avif" alt="error">
+            <div class="heart8">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;">Gurugram, India</p>
+            <p style="color: rgb(174, 170, 170);">291 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">6-11 Mar</p>
+            <p>₹12,565 night</p>
+            <div class="star4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+    </div>
+    <div class="photoo">
+        <div class="pic9">
+            <img src="d2.webp" alt="error">
+            <div class="heart9">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;">New Delhi, India </p>
+            <p style="color: rgb(174, 170, 170);">199 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">2-7 Mar</p>
+            <p>₹15,592 night</p>
+            <div class="star1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+        <div class="pic10">
+            <img src="d2.webp" alt="error">
+            <div class="heart10">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;    ">Dharampur, India</p>
+            <p style="color: rgb(174, 170, 170);">716 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">1-6 Mr</p>
+            <p>₹23,465 night</p>
+            <div class="star2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+        <div class="pic11">
+            <img src="d3.webp" alt="error">
+            <div class="heart11">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;">Gangtok, India</p>
+            <p style="color: rgb(174, 170, 170);">216 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">1-9 Mar</p>
+            <p>₹14,500 night</p>
+            <div class="star3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+        <div class="pic12">
+            <img src="pic7.avif" alt="error">
+            <div class="heart12">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;">Dharamshala, India</p>
+            <p style="color: rgb(174, 170, 170);">203 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">6-11 Mar</p>
+            <p>₹23,565 night</p>
+            <div class="star4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+    </div>
+    <div class="phot">
+        <div class="pic13">
+            <img src="pic8.avif" alt="error">
+            <div class="heart13">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false"
+                    style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                    <path
+                        d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z" />
+                </svg>
+            </div>
+            <p style="font-size: 20px;">Lonavla, India </p>
+            <p style="color: rgb(174, 170, 170);">1,3773 kilometers away</p>
+            <p style="color: rgb(174, 170, 170);">2-7 Jan</p>
+            <p>₹25,592 night</p>
+            <div class="star1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                    <path fill-rule="evenodd"
+                        d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" />
+                </svg>
+                <p style="margin-left: 2px;">5.0</p>
+            </div>
+        </div>
+    </div>
+    <div class="root">
+        <p>Continue exploring amazing pools</p>
+        <button>
+            Show more
+        </button>
+        <div class="hr1">
+            <hr>
+        </div>
+    </div>
+    <footer class="foot">
+        <div class="foot1">
+            <p class="S">
+                Support
+            </p>
+            <p>Help center</p>
+            <p>AirCover</p>
+            <p>Anti-Discriminate</p>
+            <p>Disability Support</p>
+            <p>Cancellation option</p>
+            <p>Report neighbourhood concern</p>
+        </div>
+        <div class="foot2">
+            <p class="S">
+                Hosting
+            </p>
+            <p>Airbnb your home</p>
+            <p>AirCover for Hosts</p>
+            <p>Hosting resources</p>
+            <p>Community forum</p>
+            <p>Hosting responsibly</p>
+            <p>Join a free Hosting class</p>
+            <p>Find a co-host</p>
+        </div>
+        <div class="foot3">
+            <p class="S">
+                Airbnb
+            </p>
+            <p>Newsroom</p>
+            <p>New features</p>
+            <p>Careers</p>
+            <p>Investors</p>
+            <p>Airbnb.org emergency stays</p>
+        </div>
+    </footer>
+    <div class="hr2">
+        <hr>
+    </div>
+    <div class="exit">
+        <p>© 2025 Airbnb, Inc</p>
+        <p>. Privacy</p>
+        <p>. Terms</p>
+        <p>. Sitemap</p>
+        <p>. Company details</p>
+    </div>
+
+</body>
+
+</html>
